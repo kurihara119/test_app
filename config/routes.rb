@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'users/index'
+  get 'schedules/index'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :users
+  resources :schedules
 end

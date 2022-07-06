@@ -19,7 +19,7 @@
       <h1>
         現在の日時 : <%= today.strftime("%Y年%m月%d日") %>
         <% if controller.action_name == "index" %>
-          スケジュール合計 : <%=User.count%>
+          スケジュール合計 : <%=Schedule.count%>
         <% end  %>
       </h1>
     </footer>

@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe "Users", type: :request do
+RSpec.describe "Schedules", type: :request do
   describe "GET /index" do
     it "returns http success" do
-      get "/users/index"
+      get "/schedules/index"
       expect(response).to have_http_status(:success)
     end
   end
