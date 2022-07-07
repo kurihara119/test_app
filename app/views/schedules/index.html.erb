@@ -27,8 +27,8 @@
         <tr>
           <td><%= schedule.id %></td>
           <td><%= schedule.title %></td>
-          <td><%= schedule.start_day.to_s(:datetime_jp) %></td>
-          <td><%= schedule.end_day.to_s(:datetime_jp) %></td>
+          <td><%= schedule.start_day.to_s(:date_jp) %></td>
+          <td><%= schedule.end_day.to_s(:date_jp) %></td>
           <td>
             <% @end_check = schedule.end_check %>
             <% if @end_check == true %>
